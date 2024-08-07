@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(209, 214, 216, 0.678);
+}
+.container{
+    width: 800px;
+    height: 550px;
+    border-radius: 3%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color:rgba(246, 215, 219, 0.839);
+    margin: 3em 0 0 6em;
+    padding: 10px; 
+    display: flex;
+} 
+.main{
+    width: 300px;
+    height: 525px ;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 3%;
+    background-color:palevioletred;
+    display: flex;
+
+}
+        /* INTRO */
+.one{
+    color: white;
+    margin: 2em 0 0 3em;
+    font-size:12px;
+}
+.two h2{
+    color: white;
+    margin: 30px ;
+}
+.two p{
+    color: pink;
+    opacity: 0.8; 
+    margin:25px;
+    font-size: 20px; 
+}
+        /*  PIC BOX  */
+.pic-container{
+    width:250px;
+    height:200px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color:#d24787;
+    border-radius:3%;
+   margin:4em 0 0 27px;
+}
+.para{
+ color:white;
+ opacity:0.8;
+ padding:1em;
+}
+.data img{
+    width:70px;
+    height:70px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    border-radius:50px;
+    margin:1em;
+}
+ .data h3 {
+    margin-left: 97px;
+    margin-top: -90px;
+    color:white;
+}
+.data h4{
+     margin-left: 97px;
+    margin-top: 6px;
+    color:snow;
+}
+        /* SIGN-UP FORM */
+.header h1 {
+     padding: 10px;   
+    margin-top:-480px ;
+    left: 10em;
+    position: relative;
+}
+ .header p{
+   position: absolute;
+   left: 27em;
+  
+ }
+ a{
+    text-decoration: none;
+    color: purple;
+ }
+ .looking{
+    top: 10em;
+    color: rgba(128, 128, 128, 0.702);
+ }
+ .input1{
+    width: 150px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 15px 0px 0px 30px; 
+    margin: 4.5em 0px 0px 20.5em;
+    position: absolute;
+ } 
+ .input2{
+    width: 150px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding:15px 0px 0px 30px ;
+    margin: 4.5em 0px 0px 36em;
+    position: absolute; 
+ }
+ /* .input1:hover , .input2:hover{
+    color: palevioletred;
+    width: 150px;
+    height: 50px;
+    border: 3px solid plum;
+    border-radius: 15px;
+ } */
+ .mail{
+   position: relative;
+     left: 330px; 
+     top: 130px;
+     color: gray;
+     padding: 10px;
+     line-height: 40px; 
+     font-size: 20px;
+ }
+ #mail{
+    max-height: 40px;
+    min-width: 300px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 7px;
+    font-size: 15px;
+}
+ .pass{
+    position: relative;
+      left: 330px; 
+      top: 140px;
+      color: gray;
+      padding: 10px;
+      line-height: 40px;
+      font-size: 20px;  
+  }
+  #pass{
+    max-height: 40px;
+    min-width: 300px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 7px;
+    font-size: 15px;
+}
+ .skill{
+    position: relative;
+      left: 330px; 
+      top: 150px;
+      color: gray;
+      padding: 10px;
+      line-height: 40px; 
+      font-size: 20px; 
+  }
+  #skill{
+    max-height: 40px;
+    min-width: 300px;
+    box-shadow: #32325d40 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 7px;
+    font-size: 15px;
+}
+ .button{
+    position: relative;
+      left: 330px; 
+      top: 160px;
+      color: white;
+      padding: 10px;
+      line-height: 1.5em; 
+      box-shadow: 2px;
+      border-radius: 10px;
+      background-color: #d24787;
+      width: 8em;
+      height: 3em;
+      padding-left: 20px;
+      cursor: pointer;
+  }
+  .button:hover{
+    background-color: rgb(166, 8, 87);
+  }
